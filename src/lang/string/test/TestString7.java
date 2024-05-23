@@ -6,7 +6,9 @@ public class TestString7 {
 		String original = " Hello Java ";
 		System.out.println(original.trim());
 		//System.out.println(original.strip());
-		System.out.println(original.concat(" aa"));
+		original.concat("bb");
+		System.out.println(original);
+		System.out.println(original.concat("aa"));
 	}
 	
 }
