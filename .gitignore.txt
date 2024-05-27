@@ -1,6 +1,12 @@
 # Created by https://www.toptal.com/developers/gitignore/api/git,java,eclipse,windows
 # Edit at https://www.toptal.com/developers/gitignore?templates=git,java,eclipse,windows
 
+# Eclipse m2e generated files
+# Eclipse Core
+.project
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
+
 ### Eclipse ###
 .metadata
 bin/
