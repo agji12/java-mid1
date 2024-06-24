@@ -13,7 +13,7 @@ public class InstantMain {
 		
 		ZonedDateTime zdt = ZonedDateTime.now();
 		ZonedDateTime zdt2 = ZonedDateTime.of(2030,1,1,13,30,50,0,ZoneId.of("Asia/Seoul"));
-		Instant from = Instant.from(zdt2);
+		Instant from = Instant.from(zdt);
 		System.out.println("from = " + from); // utc 시간으로 변경
 		
 		Instant epochStart = Instant.ofEpochSecond(0);
